@@ -7,7 +7,6 @@ var config = require('./config/config');
 
 var app = express();
 app.set('port', process.env.PORT || 7777);
-app.set('jsonp callback name', 'callback');
 app.set('env', 'development');
 
 if ('development' == app.get('env')) {
